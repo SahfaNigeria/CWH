@@ -1,6 +1,6 @@
-import 'package:community_health_workers/views/components/banner_component.dart';
-import 'package:community_health_workers/views/components/home_component.dart';
-import 'package:community_health_workers/views/components/home_drawer.dart';
+import 'package:community_health_workers/chw/views/components/banner_component.dart';
+import 'package:community_health_workers/chw/views/components/home_component.dart';
+import 'package:community_health_workers/chw/views/components/home_drawer.dart';
 import 'package:flutter/material.dart';
 
 class CHWHomePage extends StatelessWidget {

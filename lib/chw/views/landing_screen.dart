@@ -1,7 +1,8 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:community_health_workers/models/cwh_models.dart';
-import 'package:community_health_workers/views/auth/c_w_h_registeration_screen.dart';
-import 'package:community_health_workers/views/home_screen.dart';
+import 'package:community_health_workers/chw/models/cwh_models.dart';
+import 'package:community_health_workers/chw/views/auth/c_w_h_registeration_screen.dart';
+import 'package:community_health_workers/chw/views/home_screen.dart';
+
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 

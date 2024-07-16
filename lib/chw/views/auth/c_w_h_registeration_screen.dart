@@ -1,6 +1,6 @@
 import 'dart:typed_data';
 
-import 'package:community_health_workers/controllers/controllers.dart';
+import 'package:community_health_workers/chw/controllers/controllers.dart';
 import 'package:country_state_city_picker/country_state_city_picker.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
