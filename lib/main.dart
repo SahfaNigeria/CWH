@@ -1,8 +1,9 @@
 import 'dart:io';
 
-import 'package:community_health_workers/views/home_screen.dart';
+import 'package:community_health_workers/views/auth/chw_auth_screen.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_easyloading/flutter_easyloading.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -30,8 +31,9 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: const CHWHomePage(),
+      home: CHW_Auth_Page(),
       debugShowCheckedModeBanner: false,
+      builder: EasyLoading.init(),
     );
   }
 }

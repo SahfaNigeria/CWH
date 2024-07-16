@@ -1,9 +1,10 @@
+import 'package:community_health_workers/views/landing_screen.dart';
 import 'package:firebase_auth/firebase_auth.dart' hide EmailAuthProvider;
 import 'package:firebase_ui_auth/firebase_ui_auth.dart';
 import 'package:flutter/material.dart';
 
-class CHWHomePage extends StatelessWidget {
-  const CHWHomePage({super.key});
+class CHW_Auth_Page extends StatelessWidget {
+  const CHW_Auth_Page({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -18,7 +19,7 @@ class CHWHomePage extends StatelessWidget {
               ],
             );
           }
-          return Text('Henry');
+          return LandingScreen();
         });
   }
 }
